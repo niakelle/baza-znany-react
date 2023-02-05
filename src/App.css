@@ -1,0 +1,40 @@
+body {
+	font-size: 20px;
+}
+
+.app {
+	padding: 0;
+}
+
+.app-header {
+	box-sizing: border-box;
+	background-color: lightgreen;
+	height: 64px;
+	padding: 8px;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.app-header__heading {
+	margin: 0;
+}
+
+.app-header__search {
+	background-color: lightcoral;
+	width: 200px;
+}
+
+.app-main {
+	display: flex;
+}
+
+.sidebar {
+	width: 350px;
+	background-color: rgb(255, 163, 163);
+	min-height: calc(100vh - 64px)
+}
+
+.article {
+	padding: 12px 8px;
+}
