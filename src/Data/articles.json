@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "JSX",
+    "description": "JSX is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript. JSX gets compiled to React.createElement() calls which return plain JavaScript objects called 'React elements'."
+  },
+  {
+    "id": 2,
+    "title": "Components",
+    "description": "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called 'props') and return React elements describing what should appear on the screen."
+  },
+  {
+    "id": 3,
+    "title": "Props",
+    "description": "React components can have properties, just like regular JavaScript objects. These properties are called 'props'. Props are passed to components via HTML attributes."
+  },
+  {
+    "id": 4,
+    "title": "State",
+    "description": "In React, mutable state is typically kept in the state property of components, and only updated with setState()."
+  },
+  {
+    "id": 5,
+    "title": "Lifecycle",
+    "description": "Each component has several 'lifecycle methods' that you can override to run code at particular times in the process. Methods prefixed with will are called right before something happens, and methods prefixed with did are called right after something happens."
+  },
+  {
+    "id": 6,
+    "title": "Handling Events",
+    "description": "Handling events with React elements is very similar to handling events on DOM elements. There are some syntactic differences:"
+  },
+  {
+    "id": 7,
+    "title": "Conditional Rendering",
+    "description": "In React, you can create distinct components that encapsulate behavior you need. Then, you can render only some of them, depending on the state of your application."
+  },
+  {
+    "id": 8,
+    "title": "Lists and Keys",
+    "description": "First, let's review how you transform lists in JavaScript."
+  },
+  {
+    "id": 9,
+    "title": "Forms",
+    "description": "HTML form elements work a little bit differently from other DOM elements in React, because form elements naturally keep some internal state. For example, this form in plain HTML accepts a single name:"
+  },
+  {
+    "id": 10,
+    "title": "Lifting State Up",
+    "description": "Often, several components need to reflect the same changing data. We recommend lifting the shared state up to their closest common ancestor. Let's see how this works in action."
+  },
+  {
+    "id": 11,
+    "title": "Composition vs Inheritance",
+    "description": "React has a powerful composition model, and we recommend using composition instead of inheritance to reuse code between components."
+  },
+  {
+    "id": 12,
+    "title": "Thinking in React",
+    "description": "React is, in our opinion, the premier way to build big, fast Web apps with JavaScript. It has scaled very well for us at Facebook and Instagram."
+  }
+]
